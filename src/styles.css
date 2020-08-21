@@ -1,0 +1,109 @@
+body {
+    background-color: #272727;
+}
+
+.welcome-sign {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.class-container {
+    color: white;
+    text-align: center;
+}
+.header {
+    height: 40px;
+    position: relative;
+}
+.header-buttons {
+    border-radius: 10px;
+    background: #272727;
+    color: white;
+    width: auto;
+    margin: 5px;
+    float: left;
+}
+.new-loadout-button {
+    border-radius: 10px;
+    background: #272727;
+    color: white;
+    width: 100px;
+    margin: 5px;
+    float: right;
+    display: block;
+}
+.header-buttons:hover {
+    background: white;
+    color: #272727;
+}
+.user-buttons {
+    border-radius: 10px;
+    background: #272727;
+    color: white;
+    width: 200px;
+    margin: 5px;
+    font-size: 20px;
+}
+.user-buttons:hover {
+    background: white;
+    color: #272727;
+}
+
+.loadouts {
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+}
+.description {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    word-break: break-all;
+    border-top: 1px solid;
+}
+
+.loadout-div {
+    display: inline-block;
+    width: 75%;
+}
+.loadout-edit-update {
+    display: inline-block;
+    position: absolute;
+    margin-left: 15px;
+}
+.user-loadout-div {
+    width: 75%;
+    margin: 0 auto 0 auto;
+}
+.auth-div {
+    border: 1px solid;
+    width: 75%;
+    margin: 0 auto 0 auto;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.auth-input {
+    margin: 10px;
+    border-radius: 10px;
+    width: 50%;
+    padding-left: 5px;
+    text-align: center;
+}
+input:focus {
+    outline: none;
+}
+button:focus {
+    outline: none;
+}
